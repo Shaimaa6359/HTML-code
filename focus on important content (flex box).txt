@@ -1,0 +1,2 @@
+focus on important content (flex box)
+notes on old properties (float)

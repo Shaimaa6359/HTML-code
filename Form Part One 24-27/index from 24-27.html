@@ -15,9 +15,9 @@
     </div>
     <!-- /form
          action=>link.php send to backend action="ABDULLAH.php"
-         input self closing tag
+         input self closing tag=> inline block
          input attributes 
-         type=>text or password
+         type=>text or password(text,password,email,hidden,reset,color)
          name=> send to server
          id 
          required=> please fill out this field it is important 
@@ -28,33 +28,50 @@
          -->
     <form >
         <!-- label=> type of input to user -->
-         
+         <input type="hidden" value="ABDULLAH">
         <div>
-            <label for="">username</label>
+            <label >username</label>
             <input type="text" required placeholder="the first name" name="user" id="">
         </div>
         <br>
         <div>
-            <label for="">username</label>
+            <label >username</label>
             <input type="text" required plafceholder="the second name" name="family user" id="">
         </div>
         <br>
         <div>
-            <label for="">password</label>
+            <label 
+            >password</label>
             <input type="password" required placeholder="write a complex password" name="pass" id="">
         </div>
         <br>
         <div>
-            <label for="">Email</label>
+            <label 
+            >Email</label>
             <input type="Email" required placeholder="write a valid Email" value="shaimaaa@em.com" name="email" id="">
         </div>
         <br>
         <div>
-            <label for="">age</label>
-            <input type="age" placeholder="ww/qq/qqww" name="" id="">
+            <label >age</label>
+            <input type="age" placeholder="ww/qq/qqww" name="age" id="">
         </div>
         <br>
-
+        <div>
+            <label >color</label>
+            <input type="color" name="Color" id="">
+        </div>
+        <br>
+        <div>
+            <label >range</label>
+            <input type="range" name="range" min="0" max="22" step="2" value="0">
+        </div>
+        <br>
+        <div>
+            <label >Number</label>
+            <input type="Number" name="Number" min="10" max="100" step="10" >
+        </div>
+        <br>
+        <input type="reset" value="reset">
         <!-- submit=>put of send -->
         <input type="submit" value="save">
     </form>

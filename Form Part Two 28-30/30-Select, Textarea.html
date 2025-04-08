@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>30-Select, Textarea</title>
+</head>
+
+<body>
+    <!-- select=> choose one or two or more options
+     multiple=> choose mult of itims
+     textarea
+      -->
+    <div>
+        <h1>How Are You MY Mentor:ABDULLAH?</h1>
+        <p>Thanks For Everything</p>
+    </div>
+    <form>
+        <label for="book">choose book:</label>
+        <select name="book" id="book" multiple>
+            <optgroup label="romantic books">
+                <option value="1">book1</option>
+                <option value="2">book2</option>
+                <option value="3" selected>book3</option>
+                <option value="4">book4</option>
+                <option value="5">book5</option>
+            </optgroup>
+            <optgroup label="life storys">
+                <option value="1">story1</option>
+                <option value="2">story2</option>
+                <option value="3">story3</option>
+                <option value="4">story4</option>
+                <option value="5">story5</option>
+            </optgroup>
+
+        </select>
+        <hr>
+        <textarea name="subject" id="" cols="5" rows="5" placeholder="Test Text"></textarea>
+        <hr>
+        <input type="reset" value="reset">
+        <input type="submit" value="save">
+    </form>
+
+</body>
+
+</html>
